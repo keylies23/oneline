@@ -1,0 +1,29 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Supabase local runtime files
+supabase/.branches/
+supabase/.temp/
+
+# Node.js and Next.js (for the upcoming application)
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary Supabase Studio queries
+supabase/snippets/
